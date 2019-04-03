@@ -1,0 +1,7 @@
+language: java
+sudo: false # faster builds
+
+install: true
+
+script:
+- ./gradlew build -p dsl
